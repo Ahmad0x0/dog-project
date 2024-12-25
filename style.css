@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: linear-gradient(45deg, #ff6b6b, #d5a3ff, #67b5ff);
+    background-size: 200% 200%;
+    animation: gradientAnimation 8s ease infinite;
+    color: white;
+    height: 100vh;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.5rem;
+}
+
+
+
+footer {
+    background: linear-gradient(45deg, #ff6b6b, #d5a3ff, #67b5ff);
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}

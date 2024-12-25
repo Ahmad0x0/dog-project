@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mid web3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #3b3b3b;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Dog Lovers</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#carousel">Some Dogs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tips">Tips</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">FAQs</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="d-flex align-items-center justify-content-center text-center" style="padding-top: 80px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 text-start">
+                    <h1>Meet new and interesting dogs nearby.</h1>
+                    <p>Find the perfect match for your furry friend!</p>
+                    <button class="btn btn-light btn-lg me-2"><i class="fas fa-download"></i> Download App</button>
+                    <button class="btn btn-outline-light btn-lg"><i class="fas fa-info-circle"></i> Learn More</button>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/iphone.png" alt="Dog Phone App" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="container py-5 text-center">
+        <div class="row">
+            <div class="col-md-4">
+                <i class="fas fa-paw fa-2x mb-3 text-primary"></i>
+                <h4>Easy to Use</h4>
+                <p>So easy to use, even your dog could do it.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="fas fa-star fa-2x mb-3 text-warning"></i>
+                <h4>Elite Clientele</h4>
+                <p>We have all the dogs, the greatest dogs.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="fas fa-check-circle fa-2x mb-3 text-success"></i>
+                <h4>Guaranteed to Work</h4>
+                <p>Find the love of your dog's life or your money back.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="bg-light py-5 text-center">
+        <div class="container">
+            <blockquote class="blockquote">
+                <p class="mb-4">
+                    "I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof."
+                </p>
+                <img src="images/dog-img.jpg" alt="Pebbles" class="rounded-circle shadow"
+                    style="width: 120px; height: 120px; object-fit: cover;">
+            </blockquote>
+            <div class="d-flex justify-content-center align-items-center mt-5">
+                <img src="images/techcrunch.png" alt="TechCrunch" class="mx-3" style="width: 100px;">
+                <img src="images/mashable.png" alt="Mashable" class="mx-3" style="width: 100px;">
+                <img src="images/bizinsider.png" alt="Business Insider" class="mx-3" style="width: 120px;">
+                <img src="images/tnw.png" alt="The Next Web" class="mx-3" style="width: 100px;">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="pricing" class="container py-5 text-center">
+        <h2>A Plan for Every Dog's Needs</h2>
+        <p>Simple and affordable price plans for you and your dog.</p>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Chihuahua</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">$0/mo</h6>
+                        <ul style="list-style-type: none; padding: 0;">
+                            <li>5 Matches Per Day</li>
+                            <li>10 Messages Per Day</li>
+                            <li>Unlimited App Usage</li>
+                        </ul>
+                        <button class="btn btn-primary">Sign up for free</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Labrador</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">$15/mo</h6>
+                        <ul style="list-style-type: none; padding: 0;">
+                            <li>Unlimited Matches</li>
+                            <li>Unlimited Messages</li>
+                            <li>Unlimited App Usage</li>
+                        </ul>
+                        <button class="btn btn-primary">Get started</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Mastiff</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">$29/mo</h6>
+                        <ul style="list-style-type: none; padding: 0;">
+                            <li>Priority Listing</li>
+                            <li>Unlimited Matches & Messages</li>
+                            <li>Unlimited App Usage</li>
+                        </ul>
+                        <button class="btn btn-primary">Contact us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="carousel" class="py-5 bg-light"  >
+        <div class=".container" style="width: 70%; margin: 0 auto;" >
+            <h2 class="text-center mb-4">Meet Our Featured Dogs</h2>
+            <div id="dogCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/dog1.avif" class="d-block w-100 rounded" alt="Dog 1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Charlie</h5>
+                            <p>The friendliest Golden Retriever you'll ever meet!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/dog211.png" class="d-block w-100 rounded" alt="Dog 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Buddy</h5>
+                            <p>A charming Labrador looking for love.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/dog3.jpg" class="d-block w-100 rounded" alt="Dog 3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Lucy</h5>
+                            <p>Playful and full of energy!</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#dogCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#dogCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <br> <br>
+
+    <section id="tips" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Helpful Tips for Dog Owners</h2>
+            <div class="accordion" id="tipsAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="tipOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTipOne" aria-expanded="true" aria-controls="collapseTipOne">
+                            How to Write the Perfect Dog Bio
+                        </button>
+                    </h2>
+                    <div id="collapseTipOne" class="accordion-collapse collapse show" aria-labelledby="tipOne"
+                        data-bs-parent="#tipsAccordion">
+                        <div class="accordion-body">
+                            Highlight your dog's personality, favorite activities, and any special quirks!
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="tipTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTipTwo" aria-expanded="false" aria-controls="collapseTipTwo">
+                            Best Practices for Safe Meetups
+                        </button>
+                    </h2>
+                    <div id="collapseTipTwo" class="accordion-collapse collapse" aria-labelledby="tipTwo"
+                        data-bs-parent="#tipsAccordion">
+                        <div class="accordion-body">
+                            Always meet in public, bring your dog's favorite treats, and supervise interactions closely.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="tipThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTipThree" aria-expanded="false" aria-controls="collapseTipThree">
+                            How to Prepare for a Playdate
+                        </button>
+                    </h2>
+                    <div id="collapseTipThree" class="accordion-collapse collapse" aria-labelledby="tipThree"
+                        data-bs-parent="#tipsAccordion">
+                        <div class="accordion-body">
+                            Make sure your dog is well-rested, bring water and toys, and set a friendly tone.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="progress" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Your Matchmaking Progress</h2>
+            <div class="progress" style="height: 25px;">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 65%;" aria-valuenow="65"
+                    aria-valuemin="0" aria-valuemax="100">
+                    65% Complete
+                </div>
+            </div>
+            <p class="text-center mt-3">You're 65% closer to finding the perfect match for your dog!</p>
+        </div>
+    </section>
+
+
+
+    <section id="faq" class="container py-5">
+        <center>
+            <h2>Frequently Asked Questions</h2>
+        </center>
+        <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        What is TinDog?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        TinDog is a platform where dog lovers can find the perfect match for their furry friends.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        How does it work?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Simply create a profile for your dog, swipe right for potential matches, and connect with other
+                        dog owners.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Is TinDog free to use?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Yes, TinDog offers a free plan, but you can also upgrade to premium plans for additional
+                        features.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h6>Section</h6>
+                    <ul>
+                        <li>Home</li>
+                        <li>Features</li>
+                        <li>Pricing</li>
+                        <li>FAQs</li>
+                        <li>About</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h6>Section</h6>
+                    <ul>
+                        <li>Home</li>
+                        <li>Features</li>
+                        <li>Pricing</li>
+                        <li>FAQs</li>
+                        <li>About</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h6>Section</h6>
+                    <ul>
+                        <li>Home</li>
+                        <li>Features</li>
+                        <li>Pricing</li>
+                        <li>FAQs</li>
+                        <li>About</li>
+                    </ul>
+                </div>
+            </div>
+            <p class="mt-3">&copy; TinDog</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
